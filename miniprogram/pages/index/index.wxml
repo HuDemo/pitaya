@@ -1,0 +1,29 @@
+<!--index.wxml-->
+<!-- 示例地址：http://47.98.159.95:8010/#/recommend -->
+<view class="container">
+  <!--<view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>-->
+  <view class="top-area">
+    <view class="title">
+      <image class="list-icon" src="../../static/img/icon_threeline_fill.svg" />
+      <text class="title-txt">云音乐</text>
+      <image class="search-icon" src="../../static/img/icon_search.svg" />
+    </view>
+    <view class="tab-list">
+      <view wx:for="{{tabList}}" wx:key="index" class="tab-name">
+        <text class="{{index==0?'tab-active':''}}">{{item.name}}</text>
+      </view>
+    </view>
+  </view>
+  <view class="inner-wrap">
+    内容
+  </view>
+</view>

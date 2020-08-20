@@ -1,0 +1,53 @@
+/**index.wxss**/
+.top-area {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 750rpx;
+}
+.title {
+  background: #d81e06;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100rpx;
+}
+.list-icon {
+  width: 35rpx;
+  height: 35rpx;
+  vertical-align: middle;
+  position: absolute;
+  left: 25rpx;
+}
+.title-txt {
+  color: #ffffff;
+  font-size: 40rpx;
+}
+.search-icon {
+  width: 40rpx;
+  height: 40rpx;
+  vertical-align: middle;
+  position: absolute;
+  right: 25rpx;
+}
+.tab-list {
+  background: #d81e06;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tab-name {
+  font-size: 26rpx;
+  color: #ffffff;
+  height: 60rpx;
+  line-height: 60rpx;
+  width: 33.3%;
+  text-align: center;
+}
+.tab-active {
+  border-bottom: 5rpx solid #ffffff;
+}
+.inner-wrap {
+  background: #ffffff;
+  padding-top: 160rpx;
+}
